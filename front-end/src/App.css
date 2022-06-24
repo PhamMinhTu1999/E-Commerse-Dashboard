@@ -1,0 +1,94 @@
+.Content {
+	text-align: center;
+}
+
+.navbar {
+	background-color: skyblue;
+	height: 50px;
+}
+.logo {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 10px;
+	border-radius: 50%;
+}
+.nav-ul {
+  	padding: 5px;
+  	margin: 0px;
+}
+.nav-right {
+	text-align: right;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.nav-ul li {
+  	display: inline-block;
+  	padding: 10px;
+}
+.nav-ul li a {
+  	color: black;
+  	text-decoration: none;
+  	padding: 5px;
+	font-weight: bold;
+}
+
+.tableCenter {
+	margin-left: auto;
+	margin-right: auto;
+}
+.inputBox {
+	padding: 7px;
+	border: 1px solid skyblue;
+	width: 300px;
+	margin: 20px;
+}
+.appButton {
+	margin: 20px;
+	width: 150px;
+	padding: 10px;
+	background-color: skyblue;
+	border: solid 1px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.product-list {
+	text-align: center;
+	margin-top: 50px;
+}
+.product-list ul{
+	margin: 0px;
+}
+.product-list ul li{
+	display: inline-block;
+	height: 30px;
+	width: 210px;
+	border: 1px solid skyblue;
+	padding: 5px;
+}
+.updateButton {
+	height: 25px;
+	width: 80px;
+	background-color: skyblue;
+	border: solid 1px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.deleteButton {
+	height: 25px;
+	width: 80px;
+	background-color: orangered;
+	border: solid 1px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	background-color: skyblue;
+	width: 100%;
+	text-align: center;
+}
